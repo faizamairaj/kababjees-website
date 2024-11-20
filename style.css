@@ -201,7 +201,7 @@ p{
        background: #030728;
        color: #dcb658;
 }
-
+/* box section */
 .call-box{
   background: #1d1d1d;
   text-align: center;
@@ -212,26 +212,14 @@ p{
   font-size: 15px;
   color: #e7e7e775;
 }
-.phone{
+.phone a{
   color: #dcb658;
   font-weight: 500;
+  text-align:none;
+  text-decoration: none;
 }
-.order-online{
-  margin-top: 15px;
-  font-size: 1.25rem;
-  padding: 8px 8px;
-  color: #030728;
-  font-weight: 300;
-  background: #dcb658;
-  margin-bottom: 30px;
-  border: 1px solid transparent;
-  transition: 0.2s ease;
-  cursor: pointer;
-}
-.order-online:hover{
-       background: #030728;
-       color: #dcb658;
-     
+.phone a:hover{
+  text-decoration: underline;
 }
 .slider-wrapper .swiper-pagination-bullet{
   background: #fff;
